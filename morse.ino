@@ -7,7 +7,7 @@
 #define KEY_SPACE 0x20
 
 const int buttonPin = 2;
-const int ledPin = 13;
+const int ledPin = LED_BUILTIN; // Pin 13 on many boards.
 const unsigned long debounceMs = 50;
 const uint8_t keyToSend = KEY_SPACE;
 
